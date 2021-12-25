@@ -1,6 +1,6 @@
 /* The implementation using objects allow acess directily the element, using less memory space and continue having all the elements organized*/
 
-class Stack2 {
+module.exports = class Stack2 {
   constructor() {
     this.items = {}
     this.count = 0
@@ -55,22 +55,3 @@ class Stack2 {
     return objString
   }
 }
-
-const stack = new Stack2()
-
-console.log(stack.isEmpty())
-stack.push(8)
-stack.push(5)
-
-console.log(stack.peek())
-
-stack.push(11)
-console.log(stack.size())
-console.log(stack.isEmpty())
-
-stack.push(15)
-
-stack.pop()
-stack.pop()
-
-console.log(stack.size())
