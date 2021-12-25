@@ -1,3 +1,10 @@
+
+/*
+When we implements a stack class using arrays, the most of the methods has a time complexity O(n). 
+That means we have iterate through the array until we find the element that we looking for, 
+in the worst case, we make the iterate for all positions of array. If we have a big array,
+we need most memory space.
+*/
 class Stack1 {
   constructor() {
     this.items = []

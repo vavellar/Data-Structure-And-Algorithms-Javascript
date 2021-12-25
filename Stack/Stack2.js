@@ -1,3 +1,5 @@
+/* The implementation using objects allow acess directily the element, using less memory space and continue having all the elements organized*/
+
 class Stack2 {
   constructor() {
     this.items = {}
