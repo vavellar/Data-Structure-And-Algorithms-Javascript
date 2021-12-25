@@ -1,4 +1,4 @@
-class Stack {
+class Stack1 {
   constructor() {
     this.items = []
   }
@@ -28,7 +28,7 @@ class Stack {
   }
 }
 
-const stack = new Stack()
+const stack = new Stack1()
 
 console.log(stack.isEmpty())
 stack.push(8)
